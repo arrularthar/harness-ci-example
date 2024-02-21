@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_arrularthar_harness_ci_example_1708494736652-push-trigger-input-set
+  identifier: Build_arrularthar_harness_ci_example_1708494736652pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: SOE_POC
+  pipeline:
+    identifier: Build_arrularthar_harness_ci_example_1708494736652
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
