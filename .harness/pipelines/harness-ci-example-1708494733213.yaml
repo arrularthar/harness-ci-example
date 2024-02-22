@@ -6,6 +6,7 @@ pipeline:
   properties:
     ci:
       codebase:
+        build: <+input>
         connectorRef: account.Github_OAuth_1708491840199
         repoName: arrularthar/harness-ci-example
   stages:
