@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_arrularthar_harness_ci_example_1708629341972-push-trigger-input-set
+  identifier: Build_arrularthar_harness_ci_example_1708629341972pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: SOC_Maven_sample
+  pipeline:
+    identifier: Build_arrularthar_harness_ci_example_1708629341972
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
